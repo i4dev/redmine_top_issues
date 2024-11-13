@@ -1,0 +1,28 @@
+# Redmine Top Issues plugin
+
+Show global issues on top menú, like old timesheet but better
+
+It is inspired by the original [timesheet plugin](https://github.com/edavis10/redmine-timesheet-plugin), written by Eric Davis.
+
+## Redmine Compatible
+The plugin is tested on Redmine 4.2
+
+## Features
+
+Just a link of issues#Show
+
+## Installation and Setup
+
+1.  Clone this repository to your Redmine plugins directory:
+
+    `$ git clone https://github.com/i4dev/redmine_top_issues`
+
+2. Execute migrations:
+
+     `RAILS_ENV=production bundle exec rake redmine:plugins:migrate`
+
+3.  Restart web server
+
+## License
+
+This plugin is licensed under the Apache 2.0 license. See LICENSE for details.
